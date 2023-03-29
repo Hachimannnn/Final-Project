@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-form">
+        <form action="/Final Project/content.html" method="get" onsubmit = "return validateForm()" >
+        <h1>Login</h1>
+        <div class="content">
+        <div class="input-field">
+        <input id='user-email' type="email" placeholder="Email">
+        </div>
+        <div class="input-field">
+        <input id='user-password' type="password" placeholder="Password">
+        </div>
+        <a href="#" class="link" onclick="show()">Forgot Your Password?</a>
+        <p><input id="forgot" type="text" placeholder="Gmail or username" ></p>
+        </div>
+        <div class="action">
+        <a href="./register.html">
+            <buton>Don't have an account? Create one</button>
+        </a>
+        <button onclick="validateForm()">Log in</button>
+        </div>
+        </form>
+        </div>
+<script src="login.js"></script>
+</body>
+</html>

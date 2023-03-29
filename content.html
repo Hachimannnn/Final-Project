@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happiness 101</title>
+    <link rel="stylesheet" href="content.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+</head>
+<body id="my-home"> 
+    <!-- Header -->
+    <div class="header">
+      <ul>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+        <a id='logout' href="login.html"> > Logout</a>
+      </ul>
+    </div>
+    <!-- Logo & Navbar  -->
+    <div class="logo">
+      <img src="./picture.png">
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#my-home">Home</a></li>
+        <li><a href="#my-about">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#my-contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Main  -->
+    <div class='main' id="my-about">
+      <!-- Title -->
+      <div class="title">
+        <h1>WAYS TO SPREAD HAPPINESS</h1>
+        <p>Make someone’s day brighter with these ideas for spreading joy, kindness, and happiness.</p>
+      </div>
+      <!-- Slide show  -->
+      <div class="slideshow-container">
+        <div class="slideshow-slide">
+          <img src="https://indymaven.com/wp-content/uploads/2022/09/Spread-Joy-Painting-thegem-blog-default.jpg">
+        </div>
+        <div class="slideshow-slide">
+          <img src="https://www.lovethispic.com/uploaded_images/52369-Be-Happy-And-Smile.jpg">
+        </div>
+        <div class="slideshow-slide">
+          <img src="https://media.istockphoto.com/id/545102390/vector/stay-positive.jpg?s=612x612&w=0&k=20&c=efcRy4n5tA-lV8ZSlqff6WnQiD7qSATKnBhv5XXBVtY=">
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="content">
+        <div class="content1">
+          <h3><hr id="hr1">1. START WITH YOURSELF<hr id="hr2"></h3>
+          <img src="https://indymaven.com/wp-content/uploads/2022/09/Hazel-Owens-Spread-Joy-273x300.jpg">
+          <p id="p1">Reverend Hazel Owens, MDiv., LMFTA</p>
+          <p id="p2">You know when they say you have to fill yourself up before you pour into others? <a href="https://www.instagram.com/_hazelowens/">Reverend Hazel Owens</a>, licensed marriage and family therapy associate at <a href='https://www.cts.edu/'>Christian Theological Seminary</a>, says this is so important.</p>
+          <p id="p3">“It’s important to first see how we recognize joy for ourselves. Can I go inward within myself and do what fills my cup up and brings me joy?” Hazel said. “And then once I am filled, I can pour out effectively and spread that to others. We can’t access that genuinely until we have done some inner stuff.”</p>
+          <p id="p4">Hazel says the way to do so is by soul care: engaging your senses, moving your body, and participating in activities that keep you grounded and relaxed.</p>
+        </div>
+        <div class="content2">
+          <h3><hr id="hr3">2. GIVE MORE SMILE AND COMPLIMENTS<hr id="hr4"></h3>
+          <img src="https://indymaven.com/wp-content/uploads/2022/09/Danielle-Ireland-Spread-Joy-240x300.jpg">
+          <p id="p5">Danielle Ireland, LCSW</p>
+          <p id="p6">Show off your white teeth and make someone's day by grinning at them. Smiles can convey a lot of information without actually saying anything.<a href="https://www.instagram.com/danielleireland_lcsw/"> Danielle Ireland</a>, a therapist, advises her patients to change their attention to laughter.</p>
+          <p id="p7">The hormones that make us feel good can flood our brain and body when we laugh, according to Danielle. "I frequently hear clients say that the issue almost resolved itself after some rest, space, and laughter. Our internal state of being can sometimes change our external circumstances more than anything else. You should compliment someone if you like their shirt because it will lift their spirits.</p>
+        </div>
+        <div class="content3">
+          <h3><hr id="hr5">3. SEND A GIFT OR CARE PACKAGE<hr id="hr6"></h3>
+          <img src="./image1.png">
+          <p id="p8">Have a friend or loved one who is going through a significant change in their life or a trying time? A meal or care package left on their front door is a very helpful way to bring them joy.</p>
+          <p id="p9">No matter what they are, gifts are always appreciated. If you see something while you are out and about that makes you think of someone, get it and give it to them. The fact that you considered them will mean the world to them!</p>
+        </div>
+        <div class="content4">
+          <h3><hr id="hr7">4. GIVE BACK TO YOUR COMMUNITY<hr id="hr8"></h3>
+          <img src="https://www.closetworksinc.com/wp-content/uploads/2019/11/Happy-volunteer-looking-at-donation-box-on-a-sunny-day.jpeg">
+          <p id="p10">Why not donate items you no longer need to your family or those in need if you no longer need them?</p>
+          <p id="p11">In our neighborhood, there are a lot of people who are struggling to make ends meet and are undoubtedly lacking in happiness. There are many ways to give back and assist others, including donating money, giving away gently used clothing, or donating canned goods to a nearby charity that helps the less fortunate.</p>
+        </div>
+      </div>
+      <!-- Popup chat window  -->
+      <div class="popup-chat">
+        <button class="open-button" onclick="openForm()"><i class="fa-brands fa-facebook-messenger"></i></button>
+
+        <div class="chat-popup" id="myForm">
+          <form  class="form-container">
+            <h1>Chat</h1>
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+            <button type="submit" class="btn">Send</button>
+          </form>
+          <button type="button" class="btn cancel" onclick="closeForm()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+      <!-- Footer  -->
+      <footer>
+        <div class="footer-container" id="my-contact">
+          <div class="api-container">
+            <h3>Love Calculator</h3>
+            <p>Find out the love compatibility between two people with the Love Calculator.</p>
+            <form id="love-form">
+              <div class="name">
+                <label for="fname">Your Name:</label>
+                <input type="text" id="fname" name="fname" required>
+              </div>
+              <br>
+              <div class="pname">
+                <label for="sname">Your Partner's Name:</label>
+                <input type="text" id="sname" name="sname" required><br><br>
+              </div>
+              <div id="result"></div>
+              <br>
+              <button type="submit">Calculate</button>
+            </form>
+          </div>
+          <div class="contact-container">
+            <h3>Contact Us</h3>
+            <p>Send us an feedback at <a href="./feedback.html">this link</a> or follow us on social media:</p>
+            <ul>
+              <li><a href="https://www.facebook.com">Facebook</a></li>
+              <li><a href="https://twitter.com">Twitter</a></li>
+              <li><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+          </div>
+          <div class="resource">
+            <p>2023 © Happiness 101, VN</p>
+          </div>
+        </div>
+      </footer>      
+    </div>
+<script src="content.js"></script>
+<script src="https://fobi.io/embed.js"></script>
+</body>
+</html>
